@@ -1,0 +1,18 @@
+https://www.youtube.com/watch?v=Ke90Tje7VS0
+
+link for study
+
+class Tweet {
+    state = {};
+    render() {
+        //describe what the ui look like
+        //it is a react element which simple plain javascript with DOM element
+    }
+}
+
+React Element -------------- DOM Element
+
+react keeps the light weigth representation of DOM element in the memory as the virtual DOM.
+React essentially reacts the dom change and update the DON Element.
+Angular is a complete framework.
+React is a library.
