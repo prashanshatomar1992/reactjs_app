@@ -1,12 +1,10 @@
 import React from 'react';
+//'react' is module and React is object
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const element = <h1>Hello Prashansha</h1>;
+// console.log(element);
+ReactDOM.render(element, document.getElementById('root'));
+//first argument what is to be rendered and second argument is where to render the element
+//This root is inside public folder in index.html
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
